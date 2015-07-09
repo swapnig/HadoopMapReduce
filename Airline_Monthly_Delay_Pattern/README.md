@@ -1,6 +1,6 @@
 ## Synopsis
 
-Goal now is to compute the pattern of monthly delays for each airline.  
+Goal is to compute the pattern of monthly delays for each airline.  
 
 More precisely, for each airline, the program produces an output line like this:  
 
@@ -19,9 +19,9 @@ that AIR-A had an average delay of 17 minutes in June 2008. All such pairs are s
   
 **Hbase :**  
 
-**H-POPULATE:** This program reads records from the input file and writes each record 1-to-1 to an HBase table. All records are stored in the same table. For input record r, there is exactly one matching row r’ in that table. Also for n records in input file, HBase table contains the corresponding n rows with all the fields from the n input records.  
+  *H-POPULATE: This program reads records from the input file and writes each record 1-to-1 to an HBase table. All records are stored in the same table. For input record r, there is exactly one matching row r’ in that table. Also for n records in input file, HBase table contains the corresponding n rows with all the fields from the n input records.  
   
-**H-COMPUTE:** This program reads from the HBase table to generate the desired output file.   
+  *H-COMPUTE: This program reads from the HBase table to generate the desired output file.   
   
 **Value-to-key conversion design pattern:**  
 – To partition by X and then sort each X-group by Y, make (X, Y) the key  
@@ -35,8 +35,3 @@ Tested on Amazon EMR on Airline dataset
 ## References  
 
 [Design Patterns](http://www.ccs.neu.edu/home/mirek/classes/2012-F-CS6240/Slides/4-DesignPatterns.pdf)  
-
-
-
-
-
