@@ -1,6 +1,6 @@
 ## Synopsis
 
-Goal is to compute the pattern of monthly delays for each airline.  
+Goal is to compute the pattern of monthly delays for each airline (Apache Hbase vs Secondary Sort).  
 
 More precisely, for each airline, the program produces an output line like this:  
 
@@ -19,9 +19,9 @@ that AIR-A had an average delay of 17 minutes in June 2008. All such pairs are s
   
 **Hbase :**  
 
-  *H-POPULATE: This program reads records from the input file and writes each record 1-to-1 to an HBase table. All records are stored in the same table. For input record r, there is exactly one matching row r’ in that table. Also for n records in input file, HBase table contains the corresponding n rows with all the fields from the n input records.  
+  * H-POPULATE: This program reads records from the input file and writes each record 1-to-1 to an HBase table. All records are stored in the same table. For input record r, there is exactly one matching row r’ in that table. Also for n records in input file, HBase table contains the corresponding n rows with all the fields from the n input records.  
   
-  *H-COMPUTE: This program reads from the HBase table to generate the desired output file.   
+  * H-COMPUTE: This program reads from the HBase table to generate the desired output file.   
   
 **Value-to-key conversion design pattern:**  
 – To partition by X and then sort each X-group by Y, make (X, Y) the key  
@@ -30,7 +30,7 @@ that AIR-A had an average delay of 17 minutes in June 2008. All such pairs are s
 
 ## Testing  
 
-Tested on Amazon EMR on Airline dataset
+Tested on airline dataset using Aamazon EMR
 
 ## References  
 
