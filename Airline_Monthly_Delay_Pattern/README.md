@@ -23,7 +23,7 @@ that AIR-A had an average delay of 17 minutes in June 2008. All such pairs are s
   
 **H-COMPUTE:** This program reads from the HBase table to generate the desired output file.   
   
-Value-to-key conversion design pattern:  
+**Value-to-key conversion design pattern:**  
 – To partition by X and then sort each X-group by Y, make (X, Y) the key  
 – Define key comparator to order by composite key (X, Y)  
 – Define partitioner and grouping comparator for (X,Y) to consider only X for partitioning and grouping  
