@@ -51,7 +51,7 @@ To get the top ten genres I use the following 3 datasets:
   
 ## Testing  
 
-Tested on million song dataset using Amazon EMR Setting up hive on Amazon EMR was a tricky task in itself!  
+Tested on million song dataset using Amazon EMR. Setting up hive on Amazon EMR was a tricky task in itself!  
 
 ## Disclaimer  
 
