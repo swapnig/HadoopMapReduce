@@ -30,7 +30,7 @@ that AIR-A had an average delay of 17 minutes in June 2008. All such pairs are s
 
 ## Testing  
 
-Tested on airline dataset using Aamazon EMR
+Tested on airline dataset using Amazon EMR
 
 ## References  
 

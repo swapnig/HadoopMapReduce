@@ -11,7 +11,7 @@ There are 2 main goals of this project:
 
 To get the top ten genres I use the following 3 datasets:  
   
-* ** Echo Nest Taste Profile**   
+* **Echo Nest Taste Profile**   
   * The dataset contains real user - play counts from undisclosed partners for individual songs, with all songs already matched to the MSD  
   * Metadata about the subset  
 	  * 1,019,318 unique users  
@@ -24,7 +24,7 @@ To get the top ten genres I use the following 3 datasets:
 		| b80344d063b5ccb3212f76538f3d9e43d87dca9e | SOAKIMP12A8C130995 |     1      |  
 		| b80344d063b5ccb3212f76538f3d9e43d87dca9e | SOAPDEY12A81C210A9 |     5      |  
   
-* ** Echo Nest Artist Genres**  
+* **Echo Nest Artist Genres**  
   * The dataset contains genres associated with an individual artist, as artist-genre pairs, with all artists already matched with artist for songs contained in MSD  
   * Metadata about the subset  
 	  * 44,745 unique artists  
@@ -37,7 +37,7 @@ To get the top ten genres I use the following 3 datasets:
 		| AR002UA1187B9A637D | Rock  |  
 		| ARHFGKH1187B9A88D2 | Pop   |  
   
-* ** MSD Track metadata**  
+* **MSD Track metadata**  
   * Containing most metadata about each track in MSD  
   * Metadata about set  
 	  * 1 million songs / tracks  
@@ -51,7 +51,7 @@ To get the top ten genres I use the following 3 datasets:
   
 ## Testing  
 
-Tested on million song dataset using Aamazon EMR Setting up hive on Amazon EMR was a tricky task in itself!  
+Tested on million song dataset using Amazon EMR Setting up hive on Amazon EMR was a tricky task in itself!  
 
 ## Disclaimer  
 

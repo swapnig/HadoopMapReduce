@@ -26,4 +26,4 @@ similar performance.
 
 ## Testing  
 
-Tested on airline dataset using Aamazon EMR
+Tested on airline dataset using Amazon EMR
