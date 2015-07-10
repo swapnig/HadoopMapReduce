@@ -17,7 +17,7 @@ At present 3 projects on 2 datasets:
   
 ## Testing  
 
-Tested on airline dataset using Amazon EMR
+Tested on specific datasets using Amazon EMR
 
 ## References  
 
